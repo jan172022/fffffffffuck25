@@ -42,7 +42,7 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [
-            [InlineKeyboardButton('🤖Movie Updates Channel', url='https://t.me/Prosearchbots')],[
+            [InlineKeyboardButton('🤖Movie Updates Channel', url='https://t.me/+5GqQY0tAqKRhYmVl')],[
             InlineKeyboardButton('🤖TV/WEB Series Search Bot', url='https://t.me/Prosearchxbot')],[
             InlineKeyboardButton('🤖More Movie Search Bots', url='https://t.me/Prosearchbot')]
         ]
