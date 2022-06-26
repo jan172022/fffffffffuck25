@@ -765,9 +765,7 @@ async def advantage_spell_chok(msg):
         await k.delete()
         return
     SPELL_CHECK[msg.message_id] = movielist
-    btn = [[
-        InlineKeyboardButton(
-            text=movie.strip(),
+   
           
     await msg.reply("Sorry, This Movie is Not Found In My DataBase. Please Check spelling in Google IMDB")
                    
