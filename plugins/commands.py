@@ -43,8 +43,7 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [
             [InlineKeyboardButton('🤖Movie Updates Channel', url='https://t.me/+5GqQY0tAqKRhYmVl')],[
-            InlineKeyboardButton('🤖TV/WEB Series Search Bot', url='https://t.me/Prosearchxbot')],[
-            InlineKeyboardButton('🤖More Movie Search Bots', url='https://t.me/Prosearchbot')]
+            InlineKeyboardButton('🤖TV/WEB Series Search Bot', url='https://t.me/Prosearchxbot')]
         ]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
