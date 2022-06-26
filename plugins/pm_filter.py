@@ -769,8 +769,8 @@ async def advantage_spell_chok(msg):
         InlineKeyboardButton(
             text=movie.strip(),
           
-    await msg.reply("Sorry, This Movie is Not Found In My DataBase. Please Check spelling in Google IMDB,
-                    reply_markup=InlineKeyboardMarkup(btn))
+    await msg.reply("Sorry, This Movie is Not Found In My DataBase. Please Check spelling in Google IMDB,)
+                   
 
 
 async def manual_filters(client, message, text=False):
