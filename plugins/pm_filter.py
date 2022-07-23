@@ -746,7 +746,7 @@ async def advantage_spell_chok(msg):
     SPELL_CHECK[msg.message_id] = movielist
    
           
-    await msg.reply_text("Sorry, This Movie is Not Found In My DataBase. Please Check spelling in Google IMDB", quote=True)
+    await msg.reply_text("**❗️No Result Found.** Check Spelling in Google.", quote=True)
                    
 
 
